@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Add two numbers",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k 'add'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Multiply two numbers",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k 'multiply'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
